@@ -1,0 +1,10 @@
+{
+  "dev/js/namespace.class_name.js"    : "dev/js/{%= namespace %}.{%= class_name %}.js",
+  "dev/js/namespace.js"    : "dev/js/{%= namespace %}.js",
+
+  "dev/sass/namespace.scss" : "dev/sass/{%= namespace %}.scss",
+  "dev/namespace.class_name.html" : "dev/{%= namespace %}.{%= class_name %}.html",
+
+  "test/namespace.class_name.html" : "test/{%= namespace %}.{%= class_name %}.html",
+  "test/namespace.class_name.js"    : "test/{%= namespace %}.{%= class_name %}.js"
+}
