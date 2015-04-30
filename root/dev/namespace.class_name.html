@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>옥션 - 모바일 쇼핑은 옥션</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="../src/css/{%= namespace %}.css"/>
+</head>
+<body>
+    <div id="p_wrap">
+        <div id="p_header">
+            <h1 id="logo">Promotion Template / Coding</h1>
+            <p class="copyright">
+                #cd4;
+            </p>
+        </div>
+        <div id="p_navi">
+            <ul>
+                <li><a href="#goods">상품</a></li>
+                <li><a href="#coupon">쿠폰</a></li>
+            </ul>
+        </div>
+        @@include('iframes/allkill_01.html')
+    </div>
+    {% if(underscore !== 'no'){ %}<script src="../vendor/underscore-{%= underscore %}.min.js"></script>{% } %}
+    <script src="../src/js/{%= namespace %}.js"></script>
+</body>
+</html>
