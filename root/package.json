@@ -4,9 +4,6 @@
   "version" : "{%= version %}",
   "author" : "{%= author_name %}",
   "email" : "{%= author_email %}",
-  "scripts": {
-    "test": "mocha *.js"
-  },
   "devDependencies": {
     "csslint": "^0.10.0",
 
