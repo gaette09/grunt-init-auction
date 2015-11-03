@@ -1,2 +1,4 @@
 # .travis.yml 
 language: node_js
+before_install:
+  - npm init
